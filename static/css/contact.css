@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.main .column img{
+    width: 50px;
+    height: 50px;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+
+
+
+}
+.text{
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.main .column{
+    margin: 0 auto;
+}
+img{
+    border-radius: 30px;
+    transition-duration: 1s;
+}
+
+img:hover{
+            box-shadow: 0 0 10px rgb(34, 255, 4),
+            0 0 20px rgba(27, 245, 0, 0.81),
+            0 0 30px rgba(137, 240, 124, 0.3),
+            0 0 40px rgba(137, 240, 124, 0.2);
+}
+
